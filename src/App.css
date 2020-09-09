@@ -1,0 +1,56 @@
+.App {
+	text-align: center;
+}
+
+@media (min-width: 992px) {
+	.container {
+		right: 5em;
+	}
+}
+
+.App-header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	padding-bottom: 2.5em;
+}
+
+.paginationColor {
+	display: inline-block;
+}
+.paginationColor li {
+	float: left;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+.paginationColor li.active {
+	background: blue;
+}
+.paginationColor li:hover:not(.active) {
+	background-color: #dad9d9;
+}
+
+.search-area button {
+	background: #ffffff;
+	color: black;
+	border: none;
+}
+.search-area button:hover {
+	background: #dad9d9;
+}
+.search-area button:focus {
+	background: #dad9d9;
+}
+.search-area select {
+	background: #ffffff;
+	color: black;
+	border: none;
+}
+.search-area select:hover {
+	background: #dad9d9;
+}
+.search-area select:focus {
+	background: #dad9d9;
+}
